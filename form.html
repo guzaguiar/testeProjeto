@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+    <html lang=pt>
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title>Formulário</title>
+
+    </head>
+
+    <body>
+
+        <form action="notamedia.php" method="post"> 
+        <!--action: pra onde enviaremos os dados
+        method: get (envia os dados pela URL, usado pra pesquisa) 
+        e post (envia os dados de forma segura, usado para info de usuários)-->
+
+            Nome do Aluno: <input type=text name=txtnomedoaluno><br><br> 
+            Nota 01: <input type=text name=txtnota01><br>
+            Nota 02: <input type=text name=txtnota02><br>
+            Nota 03: <input type=text name=txtnota03><br>
+            Nota 04: <input type=text name=txtnota04><br><br>
+        <input type=submit value="Calcular Média">
+        </form>
+
+    </body>
+
+</html>
